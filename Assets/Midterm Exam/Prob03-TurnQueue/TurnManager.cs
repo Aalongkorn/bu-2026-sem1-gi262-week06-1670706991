@@ -18,7 +18,7 @@ namespace MidtermExam.Prob03
         {
             TurnQueue = new LinkedList<Player>();
         }
-
+       
         public TurnManager(LinkedList<Player> initialQueue)
         {
             TurnQueue = initialQueue ?? new LinkedList<Player>();
